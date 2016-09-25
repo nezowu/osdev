@@ -1,0 +1,5 @@
+http://www.independent-software.com/writing-your-own-bootloader-for-a-toy-operating-system-2/
+
+Запись символа в буфер клавиатуры
+Вывод на монитор записанного символа
+Вывод на монитор символа
