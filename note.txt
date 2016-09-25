@@ -4,8 +4,32 @@ http://www.independent-software.com/writing-your-own-bootloader-for-a-toy-operat
 Вывод на монитор записанного символа
 Вывод на монитор символа
 
+os:
+https://xakep.ru/2005/11/17/28794/
+http://www.brokenthorn.com/Resources/OSDevIndex.html
+https://littleosbook.github.io/
+http://subscribe.ru/catalog/comp.soft.myosdev?pos=3
+http://subscribe.ru/catalog/comp.soft.prog.asmos?pos=2
+https://dev64.wordpress.com/2012/01/09/experimenting-with-os-kernel-load-using-menuet-os-boot-loader/
+
+начальный загрузчик:
+http://rus-linux.net/MyLDP/algol/asm/asmschool_getting_down_to_the_bare_metal.html
+ gas:
+ http://www.codeproject.com/Articles/664165/Writing-a-boot-loader-in-Assembly-and-C-Part
+http://programmersforum.ru/showthread.php?t=25012 (похожа на xakep.ru)
+https://www.reinterpretcast.com/creating-a-bare-bones-bootloader
+
+bios:
+http://mini-soft.ru/document/assembler-ibm-pc-8
+http://programm.ws/page.php?id=627
+
 mov	$0x86,	%ah #задержка
 mov	$0x10,	%cx #1секунда
 int	$0x15
 
+export EDITOR="vim"
+mkcd() {
+        mkdir -p $1
+        cd $_
+}
 
