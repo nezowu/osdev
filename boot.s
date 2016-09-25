@@ -48,25 +48,27 @@ WriteString_done:
 .endfunc
 
 .func
- Reboot:
+Reboot:
   lea    rebootmsg, %si  # Load address of reboot message into si
   call   WriteString      # print the string
 #  xor    %ax, %ax         # subfuction 0
 #  int    $0x16            # call bios to wait for key
-  mov $0x00, %ah
-  int $0x16
-  cmp $0x02, %ah #скан-код единицы
-  je bootFailure
-  cmp $0x03, %ah #скан-код двойки
-  je next
-  lea goodby, %si
-  call WriteString
-  call Reboot 
+  mov	$0x86, %ah
+  mov	$0x10, %cx
+  int	$0x15
+#  mov $0x00, %ah
+#  int $0x16
+#  cmp $0x02, %ah #скан-код единицы
+#  je bootFailure
+#  cmp $0x03, %ah #скан-код двойки
+#  je next
+#  lea goodby, %si
+#  call WriteString
+#  call Reboot 
 
   .byte  0xEA             # machine language to jump to FFFF:0000 (reboot)
   .word  0x0000
   .word  0xFFFF
-#  ret
 .endfunc
 
 start:
@@ -90,9 +92,7 @@ start:
   xor  %ax, %ax          # subfunction 0
   int  $0x13             # call interrupt 13h
   jc   bootFailure       # display error message if carry set (error)  
-check:
   # End of loader, for now. Reboot.
-next:
   call Reboot
 
 bootFailure:

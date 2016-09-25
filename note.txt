@@ -3,3 +3,9 @@ http://www.independent-software.com/writing-your-own-bootloader-for-a-toy-operat
 Запись символа в буфер клавиатуры
 Вывод на монитор записанного символа
 Вывод на монитор символа
+
+mov	$0x86,	%ah #задержка
+mov	$0x10,	%cx #1секунда
+int	$0x15
+
+
