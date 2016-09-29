@@ -3,12 +3,12 @@
 .section .text
 .org 0x0                                        
 
-LOAD_SEGMENT = 0x1000             # load the boot loader to segment 1000h
+LOAD_SEGMENT = 0x1000       # load the boot loader to segment 1000h
 
 .global _start
 _start:
-  jmp start                 # jump to beginning of code
-  nop
+	jmp start                 # jump to beginning of code
+	nop
 
 bootsector:
  iOEM:          .ascii "DevOS   "    # OEM String
@@ -51,24 +51,17 @@ WriteString_done:
 Reboot:
   lea    rebootmsg, %si  # Load address of reboot message into si
   call   WriteString      # print the string
-#  xor    %ax, %ax         # subfuction 0
-#  int    $0x16            # call bios to wait for key
-  mov	$0x86, %ah
-  mov	$0x10, %cx
-  int	$0x15
-#  mov $0x00, %ah
-#  int $0x16
-#  cmp $0x02, %ah #скан-код единицы
-#  je bootFailure
-#  cmp $0x03, %ah #скан-код двойки
-#  je next
-#  lea goodby, %si
-#  call WriteString
-#  call Reboot 
+  xor    %ax, %ax         # subfuction 0
+  int    $0x16            # call bios to wait for key
 
-  .byte  0xEA             # machine language to jump to FFFF:0000 (reboot)
-  .word  0x0000
-  .word  0xFFFF
+#  mov	$0x86, %ah #задержка
+#  mov	$0x10, %cx #одна секунда
+#  int	$0x15      #заявление на прерывание
+
+ 	ljmp	$0xffff, $0x0000
+# .byte  0xEA             # machine language to jump to FFFF:0000 (reboot)
+#  .word  0x0000
+#  .word  0xFFFF
 .endfunc
 
 start:
@@ -103,7 +96,7 @@ bootFailure:
 # PROGRAM DATA
 loadmsg:          .asciz "Loading OS...\r\n"
 diskerror:        .asciz "Disk error.\r\n"
-rebootmsg:        .asciz "Press any key to reboot.\r\n1.reboot\r\n2.faile_reboot\r\n"
-goodby:		  .asciz "Goodby my friends\r\n"
+rebootmsg:        .asciz "Press any key to reboot.\r\n"
+
 .fill (510 - ( . - _start )), 1, 0  # Pad with nulls up to 510 bytes (excl. boot magic)
 BootMagic:  .word 0xAA55

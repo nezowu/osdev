@@ -21,11 +21,31 @@ https://www.reinterpretcast.com/creating-a-bare-bones-bootloader
 
 bios:
 http://mini-soft.ru/document/assembler-ibm-pc-8
-http://programm.ws/page.php?id=627
+http://www.frolov-lib.ru/books/bsp/v02/ch2_4.htm
 
 mov	$0x86,	%ah #задержка
-mov	$0x10,	%cx #1секунда
+mov	$0x10,	%cx #1секунда (1000 мс)
 int	$0x15
+
+mov	$0x10,	%ah # чтение расширенного сивола из дампа клавиатуры
+int	$0x16
+cmp	$0x02,	%ah # 02 скан-код единицы 03 два 1с <enter>
+
+mov	$0x13,	%ah #запись строки в режиме телетайпа
+int	$0x16
+
+mov	$0x0e,	%ah #запись символа в режиме телетайпа
+int	$0x10
+
+(intel syntax)
+    in     al, 92h #открыть вентиль А20
+    or     al, 02h
+    out    92h, al
+
+    in     al, 92h #закрыть вентиль А20
+    and    al, 0FDh
+    out    92h, al
+
 
 export EDITOR="vim"
 mkcd() {
@@ -33,3 +53,8 @@ mkcd() {
         cd $_
 }
 
+qemu-img conver -f raw floppy.img -O qcow2 floppy.qcow2 -p
+dd if=boot.bin of=floppy.img bs=512 count=1 conv=notrunc
+
+qemu-system-i386 -boot \
+menu=on,splash=/home/nez/Downloads/boot.bmp,splash-time=5000 -fda floppy.img
