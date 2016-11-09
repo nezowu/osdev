@@ -1,0 +1,44 @@
+00000000000i[     ] LTDL_LIBRARY_PATH not set. using compile time default '/usr/lib/bochs/plugins'
+00000000000i[     ] BXSHARE not set. using compile time default '/usr/share/bochs'
+00000000000i[     ] lt_dlhandle is 0x2b91860
+00000000000i[PLGIN] loaded plugin libbx_unmapped.so
+00000000000i[     ] lt_dlhandle is 0x2b92f30
+00000000000i[PLGIN] loaded plugin libbx_biosdev.so
+00000000000i[     ] lt_dlhandle is 0x2b96e30
+00000000000i[PLGIN] loaded plugin libbx_speaker.so
+00000000000i[     ] lt_dlhandle is 0x2b976a0
+00000000000i[PLGIN] loaded plugin libbx_extfpuirq.so
+00000000000i[     ] lt_dlhandle is 0x2b97f00
+00000000000i[PLGIN] loaded plugin libbx_parallel.so
+00000000000i[     ] lt_dlhandle is 0x2b99bb0
+00000000000i[PLGIN] loaded plugin libbx_serial.so
+00000000000i[     ] lt_dlhandle is 0x2b9d790
+00000000000i[PLGIN] loaded plugin libbx_gameport.so
+00000000000i[     ] lt_dlhandle is 0x2b9e230
+00000000000i[PLGIN] loaded plugin libbx_iodebug.so
+00000000000i[     ] reading configuration from bochsrc
+00000000000p[     ] >>PANIC<< reading from bochsrc failed
+00000000000e[CTRL ] notify called, but no bxevent_callback function is registered
+00000000000i[CPU0 ] CPU is in real mode (active)
+00000000000i[CPU0 ] CS.mode = 16 bit
+00000000000i[CPU0 ] SS.mode = 16 bit
+00000000000i[CPU0 ] EFER   = 0x00000000
+00000000000i[CPU0 ] | EAX=00000000  EBX=00000000  ECX=00000000  EDX=00000000
+00000000000i[CPU0 ] | ESP=00000000  EBP=00000000  ESI=00000000  EDI=00000000
+00000000000i[CPU0 ] | IOPL=0 id vip vif ac vm rf nt of df if tf sf ZF af PF cf
+00000000000i[CPU0 ] | SEG sltr(index|ti|rpl)     base    limit G D
+00000000000i[CPU0 ] |  CS:0000( 0000| 0|  0) 00000000 00000000 0 0
+00000000000i[CPU0 ] |  DS:0000( 0000| 0|  0) 00000000 00000000 0 0
+00000000000i[CPU0 ] |  SS:0000( 0000| 0|  0) 00000000 00000000 0 0
+00000000000i[CPU0 ] |  ES:0000( 0000| 0|  0) 00000000 00000000 0 0
+00000000000i[CPU0 ] |  FS:0000( 0000| 0|  0) 00000000 00000000 0 0
+00000000000i[CPU0 ] |  GS:0000( 0000| 0|  0) 00000000 00000000 0 0
+00000000000i[CPU0 ] | EIP=00000000 (00000000)
+00000000000i[CPU0 ] | CR0=0x00000000 CR2=0x00000000
+00000000000i[CPU0 ] | CR3=0x00000000 CR4=0x00000000
+00000000000i[CTRL ] quit_sim called with exit code 1
+========================================================================
+                        Bochs x86 Emulator 2.6
+            Built from SVN snapshot on September 2nd, 2012
+========================================================================
+bx_dbg_read_linear: physical memory read error (phy=0x0000000000000000, lin=0x0000000000000000)

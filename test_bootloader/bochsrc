@@ -1,0 +1,10 @@
+config_interface: textconfig
+display_library: x, options="gui_debug"
+megs: 32
+cpu: model=atom_n270
+floppya: 1_44=boot_first.bin, status=inserted
+#floppya: 1_44=../boot_origin.bin, status=inserted
+ata0-slave: type=cdrom, path="/dev/cdrom", status=ejected
+boot: floppy
+log: bochs.log
+mouse: enabled=0

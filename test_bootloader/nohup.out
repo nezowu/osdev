@@ -1,0 +1,331 @@
+00000000000i[     ] LTDL_LIBRARY_PATH not set. using compile time default '/usr/lib/bochs/plugins'
+00000000000i[     ] BXSHARE not set. using compile time default '/usr/share/bochs'
+00000000000i[     ] lt_dlhandle is 0x2b8d850
+00000000000i[PLGIN] loaded plugin libbx_unmapped.so
+00000000000i[     ] lt_dlhandle is 0x2b8ef20
+00000000000i[PLGIN] loaded plugin libbx_biosdev.so
+00000000000i[     ] lt_dlhandle is 0x2b92e20
+00000000000i[PLGIN] loaded plugin libbx_speaker.so
+00000000000i[     ] lt_dlhandle is 0x2b93690
+00000000000i[PLGIN] loaded plugin libbx_extfpuirq.so
+00000000000i[     ] lt_dlhandle is 0x2b93ef0
+00000000000i[PLGIN] loaded plugin libbx_parallel.so
+00000000000i[     ] lt_dlhandle is 0x2b95ba0
+00000000000i[PLGIN] loaded plugin libbx_serial.so
+00000000000i[     ] lt_dlhandle is 0x2b99780
+00000000000i[PLGIN] loaded plugin libbx_gameport.so
+00000000000i[     ] lt_dlhandle is 0x2b9a220
+00000000000i[PLGIN] loaded plugin libbx_iodebug.so
+00000000000i[     ] reading configuration from bochsrc
+00000000000i[     ] lt_dlhandle is 0x2b9aa60
+00000000000i[PLGIN] loaded plugin libbx_x.so
+00000000000i[     ] installing x module as the Bochs GUI
+00000000000i[     ] using log file bochs.log
+
+(.:2298): Gtk-CRITICAL **: IA__gtk_widget_show: assertion 'GTK_IS_WIDGET (widget)' failed
+========================================================================
+                        Bochs x86 Emulator 2.6
+            Built from SVN snapshot on September 2nd, 2012
+========================================================================
+00000000000i[     ] LTDL_LIBRARY_PATH not set. using compile time default '/usr/lib/bochs/plugins'
+00000000000i[     ] BXSHARE not set. using compile time default '/usr/share/bochs'
+00000000000i[     ] lt_dlhandle is 0x41cc850
+00000000000i[PLGIN] loaded plugin libbx_unmapped.so
+00000000000i[     ] lt_dlhandle is 0x41cdf20
+00000000000i[PLGIN] loaded plugin libbx_biosdev.so
+00000000000i[     ] lt_dlhandle is 0x41d1e20
+00000000000i[PLGIN] loaded plugin libbx_speaker.so
+00000000000i[     ] lt_dlhandle is 0x41d2690
+00000000000i[PLGIN] loaded plugin libbx_extfpuirq.so
+00000000000i[     ] lt_dlhandle is 0x41d2ef0
+00000000000i[PLGIN] loaded plugin libbx_parallel.so
+00000000000i[     ] lt_dlhandle is 0x41d4ba0
+00000000000i[PLGIN] loaded plugin libbx_serial.so
+00000000000i[     ] lt_dlhandle is 0x41d8780
+00000000000i[PLGIN] loaded plugin libbx_gameport.so
+00000000000i[     ] lt_dlhandle is 0x41d9220
+00000000000i[PLGIN] loaded plugin libbx_iodebug.so
+00000000000i[     ] reading configuration from bochsrc
+00000000000i[     ] lt_dlhandle is 0x41d9a60
+00000000000i[PLGIN] loaded plugin libbx_x.so
+00000000000i[     ] installing x module as the Bochs GUI
+00000000000i[     ] using log file bochs.log
+
+(.:2711): Gtk-CRITICAL **: IA__gtk_widget_show: assertion 'GTK_IS_WIDGET (widget)' failed
+========================================================================
+                        Bochs x86 Emulator 2.6
+            Built from SVN snapshot on September 2nd, 2012
+========================================================================
+00000000000i[     ] LTDL_LIBRARY_PATH not set. using compile time default '/usr/lib/bochs/plugins'
+00000000000i[     ] BXSHARE not set. using compile time default '/usr/share/bochs'
+00000000000i[     ] lt_dlhandle is 0x354e860
+00000000000i[PLGIN] loaded plugin libbx_unmapped.so
+00000000000i[     ] lt_dlhandle is 0x354ff30
+00000000000i[PLGIN] loaded plugin libbx_biosdev.so
+00000000000i[     ] lt_dlhandle is 0x3553e30
+00000000000i[PLGIN] loaded plugin libbx_speaker.so
+00000000000i[     ] lt_dlhandle is 0x35546a0
+00000000000i[PLGIN] loaded plugin libbx_extfpuirq.so
+00000000000i[     ] lt_dlhandle is 0x3554f00
+00000000000i[PLGIN] loaded plugin libbx_parallel.so
+00000000000i[     ] lt_dlhandle is 0x3556bb0
+00000000000i[PLGIN] loaded plugin libbx_serial.so
+00000000000i[     ] lt_dlhandle is 0x355a790
+00000000000i[PLGIN] loaded plugin libbx_gameport.so
+00000000000i[     ] lt_dlhandle is 0x355b230
+00000000000i[PLGIN] loaded plugin libbx_iodebug.so
+00000000000i[     ] reading configuration from bochsrc
+00000000000i[     ] lt_dlhandle is 0x355ba70
+00000000000i[PLGIN] loaded plugin libbx_x.so
+00000000000i[     ] installing x module as the Bochs GUI
+00000000000i[     ] using log file bochs.log
+
+(.:3068): Gtk-CRITICAL **: IA__gtk_widget_show: assertion 'GTK_IS_WIDGET (widget)' failed
+========================================================================
+                        Bochs x86 Emulator 2.6
+            Built from SVN snapshot on September 2nd, 2012
+========================================================================
+00000000000i[     ] LTDL_LIBRARY_PATH not set. using compile time default '/usr/lib/bochs/plugins'
+00000000000i[     ] BXSHARE not set. using compile time default '/usr/share/bochs'
+00000000000i[     ] lt_dlhandle is 0x32e7860
+00000000000i[PLGIN] loaded plugin libbx_unmapped.so
+00000000000i[     ] lt_dlhandle is 0x32e8f30
+00000000000i[PLGIN] loaded plugin libbx_biosdev.so
+00000000000i[     ] lt_dlhandle is 0x32ece30
+00000000000i[PLGIN] loaded plugin libbx_speaker.so
+00000000000i[     ] lt_dlhandle is 0x32ed6a0
+00000000000i[PLGIN] loaded plugin libbx_extfpuirq.so
+00000000000i[     ] lt_dlhandle is 0x32edf00
+00000000000i[PLGIN] loaded plugin libbx_parallel.so
+00000000000i[     ] lt_dlhandle is 0x32efbb0
+00000000000i[PLGIN] loaded plugin libbx_serial.so
+00000000000i[     ] lt_dlhandle is 0x32f3790
+00000000000i[PLGIN] loaded plugin libbx_gameport.so
+00000000000i[     ] lt_dlhandle is 0x32f4230
+00000000000i[PLGIN] loaded plugin libbx_iodebug.so
+00000000000i[     ] reading configuration from bochsrc
+00000000000i[     ] lt_dlhandle is 0x32f4a70
+00000000000i[PLGIN] loaded plugin libbx_x.so
+00000000000i[     ] installing x module as the Bochs GUI
+00000000000i[     ] using log file bochs.log
+
+(.:3122): Gtk-CRITICAL **: IA__gtk_widget_show: assertion 'GTK_IS_WIDGET (widget)' failed
+========================================================================
+                        Bochs x86 Emulator 2.6
+            Built from SVN snapshot on September 2nd, 2012
+========================================================================
+00000000000i[     ] LTDL_LIBRARY_PATH not set. using compile time default '/usr/lib/bochs/plugins'
+00000000000i[     ] BXSHARE not set. using compile time default '/usr/share/bochs'
+00000000000i[     ] lt_dlhandle is 0x3df0860
+00000000000i[PLGIN] loaded plugin libbx_unmapped.so
+00000000000i[     ] lt_dlhandle is 0x3df1f30
+00000000000i[PLGIN] loaded plugin libbx_biosdev.so
+00000000000i[     ] lt_dlhandle is 0x3df5e30
+00000000000i[PLGIN] loaded plugin libbx_speaker.so
+00000000000i[     ] lt_dlhandle is 0x3df66a0
+00000000000i[PLGIN] loaded plugin libbx_extfpuirq.so
+00000000000i[     ] lt_dlhandle is 0x3df6f00
+00000000000i[PLGIN] loaded plugin libbx_parallel.so
+00000000000i[     ] lt_dlhandle is 0x3df8bb0
+00000000000i[PLGIN] loaded plugin libbx_serial.so
+00000000000i[     ] lt_dlhandle is 0x3dfc790
+00000000000i[PLGIN] loaded plugin libbx_gameport.so
+00000000000i[     ] lt_dlhandle is 0x3dfd230
+00000000000i[PLGIN] loaded plugin libbx_iodebug.so
+00000000000i[     ] reading configuration from bochsrc
+00000000000i[     ] lt_dlhandle is 0x3dfda70
+00000000000i[PLGIN] loaded plugin libbx_x.so
+00000000000i[     ] installing x module as the Bochs GUI
+00000000000i[     ] using log file bochs.log
+
+(.:3178): Gtk-CRITICAL **: IA__gtk_widget_show: assertion 'GTK_IS_WIDGET (widget)' failed
+========================================================================
+                        Bochs x86 Emulator 2.6
+            Built from SVN snapshot on September 2nd, 2012
+========================================================================
+00000000000i[     ] LTDL_LIBRARY_PATH not set. using compile time default '/usr/lib/bochs/plugins'
+00000000000i[     ] BXSHARE not set. using compile time default '/usr/share/bochs'
+00000000000i[     ] lt_dlhandle is 0x2c54860
+00000000000i[PLGIN] loaded plugin libbx_unmapped.so
+00000000000i[     ] lt_dlhandle is 0x2c55f30
+00000000000i[PLGIN] loaded plugin libbx_biosdev.so
+00000000000i[     ] lt_dlhandle is 0x2c59e30
+00000000000i[PLGIN] loaded plugin libbx_speaker.so
+00000000000i[     ] lt_dlhandle is 0x2c5a6a0
+00000000000i[PLGIN] loaded plugin libbx_extfpuirq.so
+00000000000i[     ] lt_dlhandle is 0x2c5af00
+00000000000i[PLGIN] loaded plugin libbx_parallel.so
+00000000000i[     ] lt_dlhandle is 0x2c5cbb0
+00000000000i[PLGIN] loaded plugin libbx_serial.so
+00000000000i[     ] lt_dlhandle is 0x2c60790
+00000000000i[PLGIN] loaded plugin libbx_gameport.so
+00000000000i[     ] lt_dlhandle is 0x2c61230
+00000000000i[PLGIN] loaded plugin libbx_iodebug.so
+00000000000i[     ] reading configuration from bochsrc
+00000000000i[     ] lt_dlhandle is 0x2c61a70
+00000000000i[PLGIN] loaded plugin libbx_x.so
+00000000000i[     ] installing x module as the Bochs GUI
+00000000000i[     ] using log file bochs.log
+
+(.:3374): Gtk-CRITICAL **: IA__gtk_widget_show: assertion 'GTK_IS_WIDGET (widget)' failed
+========================================================================
+                        Bochs x86 Emulator 2.6
+            Built from SVN snapshot on September 2nd, 2012
+========================================================================
+00000000000i[     ] LTDL_LIBRARY_PATH not set. using compile time default '/usr/lib/bochs/plugins'
+00000000000i[     ] BXSHARE not set. using compile time default '/usr/share/bochs'
+00000000000i[     ] lt_dlhandle is 0x3425860
+00000000000i[PLGIN] loaded plugin libbx_unmapped.so
+00000000000i[     ] lt_dlhandle is 0x3426f30
+00000000000i[PLGIN] loaded plugin libbx_biosdev.so
+00000000000i[     ] lt_dlhandle is 0x342ae30
+00000000000i[PLGIN] loaded plugin libbx_speaker.so
+00000000000i[     ] lt_dlhandle is 0x342b6a0
+00000000000i[PLGIN] loaded plugin libbx_extfpuirq.so
+00000000000i[     ] lt_dlhandle is 0x342bf00
+00000000000i[PLGIN] loaded plugin libbx_parallel.so
+00000000000i[     ] lt_dlhandle is 0x342dbb0
+00000000000i[PLGIN] loaded plugin libbx_serial.so
+00000000000i[     ] lt_dlhandle is 0x3431790
+00000000000i[PLGIN] loaded plugin libbx_gameport.so
+00000000000i[     ] lt_dlhandle is 0x3432230
+00000000000i[PLGIN] loaded plugin libbx_iodebug.so
+00000000000i[     ] reading configuration from bochsrc
+00000000000i[     ] lt_dlhandle is 0x3432a70
+00000000000i[PLGIN] loaded plugin libbx_x.so
+00000000000i[     ] installing x module as the Bochs GUI
+00000000000i[     ] using log file bochs.log
+
+(.:3920): Gtk-CRITICAL **: IA__gtk_widget_show: assertion 'GTK_IS_WIDGET (widget)' failed
+========================================================================
+                        Bochs x86 Emulator 2.6
+            Built from SVN snapshot on September 2nd, 2012
+========================================================================
+i[CPU0 ] | ESP=00007be4  EBP=00000000  ESI=000e7cc5  EDI=0000ffac
+01162209151i[CPU0 ] | IOPL=0 id vip vif ac vm rf nt of df if tf sf ZF af PF cf
+01162209151i[CPU0 ] | SEG sltr(index|ti|rpl)     base    limit G D
+01162209151i[CPU0 ] |  CS:f000( 0004| 0|  0) 000f0000 0000ffff 0 0
+01162209151i[CPU0 ] |  DS:0040( 0005| 0|  0) 00000400 0000ffff 0 0
+01162209151i[CPU0 ] |  SS:0000( 0005| 0|  0) 00000000 0000ffff 0 0
+01162209151i[CPU0 ] |  ES:0000( 0005| 0|  0) 00000000 0000ffff 0 0
+01162209151i[CPU0 ] |  FS:0000( 0005| 0|  0) 00000000 0000ffff 0 0
+01162209151i[CPU0 ] |  GS:0000( 0005| 0|  0) 00000000 0000ffff 0 0
+01162209151i[CPU0 ] | EIP=0000e86d (0000e86d)
+01162209151i[CPU0 ] | CR0=0x60000010 CR2=0x00000000
+01162209151i[CPU0 ] | CR3=0x00000000 CR4=0x00000000
+00000000000i[     ] LTDL_LIBRARY_PATH not set. using compile time default '/usr/lib/bochs/plugins'
+00000000000i[     ] BXSHARE not set. using compile time default '/usr/share/bochs'
+00000000000i[     ] lt_dlhandle is 0x34dc860
+00000000000i[PLGIN] loaded plugin libbx_unmapped.so
+00000000000i[     ] lt_dlhandle is 0x34ddf30
+00000000000i[PLGIN] loaded plugin libbx_biosdev.so
+00000000000i[     ] lt_dlhandle is 0x34e1e30
+00000000000i[PLGIN] loaded plugin libbx_speaker.so
+00000000000i[     ] lt_dlhandle is 0x34e26a0
+00000000000i[PLGIN] loaded plugin libbx_extfpuirq.so
+00000000000i[     ] lt_dlhandle is 0x34e2f00
+00000000000i[PLGIN] loaded plugin libbx_parallel.so
+00000000000i[     ] lt_dlhandle is 0x34e4bb0
+00000000000i[PLGIN] loaded plugin libbx_serial.so
+00000000000i[     ] lt_dlhandle is 0x34e8790
+00000000000i[PLGIN] loaded plugin libbx_gameport.so
+00000000000i[     ] lt_dlhandle is 0x34e9230
+00000000000i[PLGIN] loaded plugin libbx_iodebug.so
+00000000000i[     ] reading configuration from bochsrc
+00000000000i[     ] lt_dlhandle is 0x34e9a70
+00000000000i[PLGIN] loaded plugin libbx_x.so
+00000000000i[     ] installing x module as the Bochs GUI
+00000000000i[     ] using log file bochs.log
+
+(.:3981): Gtk-CRITICAL **: IA__gtk_widget_show: assertion 'GTK_IS_WIDGET (widget)' failed
+========================================================================
+                        Bochs x86 Emulator 2.6
+            Built from SVN snapshot on September 2nd, 2012
+========================================================================
+00000000000i[     ] LTDL_LIBRARY_PATH not set. using compile time default '/usr/lib/bochs/plugins'
+00000000000i[     ] BXSHARE not set. using compile time default '/usr/share/bochs'
+00000000000i[     ] lt_dlhandle is 0x4357860
+00000000000i[PLGIN] loaded plugin libbx_unmapped.so
+00000000000i[     ] lt_dlhandle is 0x4358f30
+00000000000i[PLGIN] loaded plugin libbx_biosdev.so
+00000000000i[     ] lt_dlhandle is 0x435ce30
+00000000000i[PLGIN] loaded plugin libbx_speaker.so
+00000000000i[     ] lt_dlhandle is 0x435d6a0
+00000000000i[PLGIN] loaded plugin libbx_extfpuirq.so
+00000000000i[     ] lt_dlhandle is 0x435df00
+00000000000i[PLGIN] loaded plugin libbx_parallel.so
+00000000000i[     ] lt_dlhandle is 0x435fbb0
+00000000000i[PLGIN] loaded plugin libbx_serial.so
+00000000000i[     ] lt_dlhandle is 0x4363790
+00000000000i[PLGIN] loaded plugin libbx_gameport.so
+00000000000i[     ] lt_dlhandle is 0x4364230
+00000000000i[PLGIN] loaded plugin libbx_iodebug.so
+00000000000i[     ] reading configuration from bochsrc
+00000000000i[     ] lt_dlhandle is 0x4364a70
+00000000000i[PLGIN] loaded plugin libbx_x.so
+00000000000i[     ] installing x module as the Bochs GUI
+00000000000i[     ] using log file bochs.log
+
+(.:4067): Gtk-CRITICAL **: IA__gtk_widget_show: assertion 'GTK_IS_WIDGET (widget)' failed
+========================================================================
+                        Bochs x86 Emulator 2.6
+            Built from SVN snapshot on September 2nd, 2012
+========================================================================
+00000000000i[     ] LTDL_LIBRARY_PATH not set. using compile time default '/usr/lib/bochs/plugins'
+00000000000i[     ] BXSHARE not set. using compile time default '/usr/share/bochs'
+00000000000i[     ] lt_dlhandle is 0x2e2d860
+00000000000i[PLGIN] loaded plugin libbx_unmapped.so
+00000000000i[     ] lt_dlhandle is 0x2e2ef30
+00000000000i[PLGIN] loaded plugin libbx_biosdev.so
+00000000000i[     ] lt_dlhandle is 0x2e32e30
+00000000000i[PLGIN] loaded plugin libbx_speaker.so
+00000000000i[     ] lt_dlhandle is 0x2e336a0
+00000000000i[PLGIN] loaded plugin libbx_extfpuirq.so
+00000000000i[     ] lt_dlhandle is 0x2e33f00
+00000000000i[PLGIN] loaded plugin libbx_parallel.so
+00000000000i[     ] lt_dlhandle is 0x2e35bb0
+00000000000i[PLGIN] loaded plugin libbx_serial.so
+00000000000i[     ] lt_dlhandle is 0x2e39790
+00000000000i[PLGIN] loaded plugin libbx_gameport.so
+00000000000i[     ] lt_dlhandle is 0x2e3a230
+00000000000i[PLGIN] loaded plugin libbx_iodebug.so
+00000000000i[     ] reading configuration from bochsrc
+00000000000i[     ] lt_dlhandle is 0x2e3aa70
+00000000000i[PLGIN] loaded plugin libbx_x.so
+00000000000i[     ] installing x module as the Bochs GUI
+00000000000i[     ] using log file bochs.log
+
+(.:4090): Gtk-CRITICAL **: IA__gtk_widget_show: assertion 'GTK_IS_WIDGET (widget)' failed
+========================================================================
+                        Bochs x86 Emulator 2.6
+            Built from SVN snapshot on September 2nd, 2012
+========================================================================
+00000000000i[     ] LTDL_LIBRARY_PATH not set. using compile time default '/usr/lib/bochs/plugins'
+00000000000i[     ] BXSHARE not set. using compile time default '/usr/share/bochs'
+00000000000i[     ] lt_dlhandle is 0x30c9860
+00000000000i[PLGIN] loaded plugin libbx_unmapped.so
+00000000000i[     ] lt_dlhandle is 0x30caf30
+00000000000i[PLGIN] loaded plugin libbx_biosdev.so
+00000000000i[     ] lt_dlhandle is 0x30cee30
+00000000000i[PLGIN] loaded plugin libbx_speaker.so
+00000000000i[     ] lt_dlhandle is 0x30cf6a0
+00000000000i[PLGIN] loaded plugin libbx_extfpuirq.so
+00000000000i[     ] lt_dlhandle is 0x30cff00
+00000000000i[PLGIN] loaded plugin libbx_parallel.so
+00000000000i[     ] lt_dlhandle is 0x30d1bb0
+00000000000i[PLGIN] loaded plugin libbx_serial.so
+00000000000i[     ] lt_dlhandle is 0x30d5790
+00000000000i[PLGIN] loaded plugin libbx_gameport.so
+00000000000i[     ] lt_dlhandle is 0x30d6230
+00000000000i[PLGIN] loaded plugin libbx_iodebug.so
+00000000000i[     ] reading configuration from bochsrc
+00000000000i[     ] lt_dlhandle is 0x30d6a70
+00000000000i[PLGIN] loaded plugin libbx_x.so
+00000000000i[     ] installing x module as the Bochs GUI
+00000000000i[     ] using log file bochs.log
+
+(.:8528): Gtk-CRITICAL **: IA__gtk_widget_show: assertion 'GTK_IS_WIDGET (widget)' failed
+========================================================================
+                        Bochs x86 Emulator 2.6
+            Built from SVN snapshot on September 2nd, 2012
+========================================================================
